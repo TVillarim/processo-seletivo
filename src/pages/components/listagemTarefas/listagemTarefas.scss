@@ -1,0 +1,123 @@
+.tarefas-header-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+    .header-tarefas {
+        display: flex;
+
+        .header-box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .apagar-usuario-button {
+            background-color: #000000;
+            color: white;
+            border: none;
+            margin-left: 20px;
+            margin-top: 10px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .apagar-usuario-button:hover {
+            font-size: 15px;
+        }
+
+        h1 {
+            font-weight: 400;
+            margin-left: 30px;
+        }
+
+        a {
+            position: absolute;
+            right: 50px;
+            top: 25px;
+            padding: 10px;
+            border-bottom: 1px solid rgba($color: #000000, $alpha: 0.0);
+            cursor: pointer;
+            transition: 0.3s;
+        };
+
+        a:hover {
+            border-bottom: 1px solid rgba($color: #ffffff, $alpha: 1.0) 
+        }
+
+        a:first-child {
+            margin-right: 10%
+        }
+
+    };
+};
+
+
+.section-listaTarefas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+
+    h1 {
+        font-size: 30px;
+        opacity: 0.4
+    }
+    .section-listaTarefas {
+        display: flex;     
+    };
+
+    .lista {
+        background-color: rgb(245, 245, 245);
+        box-shadow: 2px 2px 2px 2px rgba($color: #000000, $alpha: 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin: 20px;
+        width: 700px;
+        border-radius: 8px;
+        cursor: pointer;
+
+        .title {
+            font-size: 25px;
+            border-bottom: 1px dotted black;
+            padding-bottom: 10px;
+        };
+
+        .prioridade {
+            font-size: 15px;
+            font-weight: 500;
+            padding-right: 10px
+        };
+
+        .status {
+            font-size: 15px;
+            font-weight: 500;
+            padding-right: 10px;
+        }
+
+        button {
+            background-color: rgb(39, 60, 182);
+            color: white;
+            border: 1px solid rgba($color: #000000, $alpha: 0.0);
+            border-radius: 8px;
+            width: 100px;
+            height: 30px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #ffffff;
+            color: rgb(39, 60, 182);
+            border: 1px solid rgba($color: #2844c0, $alpha: 1.0);
+
+        }
+    }
+}

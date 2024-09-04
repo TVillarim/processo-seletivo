@@ -1,0 +1,104 @@
+.header {
+    background-color: rgb(20, 20, 20);
+    color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+
+    h1 {
+        margin-left: 50px;
+        font-size: 50px;
+        font-weight: 400;
+        }
+
+    h3 {
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 55px;
+    }
+}
+
+
+.section-container {
+    background-color: rgb(233, 233, 233);
+    box-shadow: 2px 2px 2px 2px rgba($color: #000000, $alpha: 0.2);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 20%;
+    right: 12%;
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    align-items: center;
+
+    .section-signin-container {
+
+        margin-top: 20%;
+
+
+        h2 {
+            display: flex;
+            font-weight: 400;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px
+        };
+    
+        .input-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+    
+            input {
+                width: 300px;
+                padding: 10px;
+                margin: 20px;
+                border: 1px solid rgba($color: #000000, $alpha: 0.0);
+                outline: none;
+                border-radius: 8px;
+                transition: 0.3s
+            };
+
+            input:hover {
+                border: 1px solid #190fa3;
+            }
+
+            span {
+                color: rgb(228, 80, 80)
+            }
+        };
+
+    };
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+
+        button {
+            background-color: rgb(39, 60, 182);
+            color: white;
+            width: 100px;
+            height: 30px;
+            margin: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba($color: #000000, $alpha: 0.0);
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            border: 1px solid #190fa3;
+            background-color: white;
+            color: #190fa3
+        }
+    }
+
+};
+

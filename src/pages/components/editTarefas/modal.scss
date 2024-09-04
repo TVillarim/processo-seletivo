@@ -1,0 +1,160 @@
+.modal{
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+
+  }
+
+  .modal-section-container {
+    display: flex;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .title-input {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 20px;
+        width: 500px;
+        border-radius: 8px;
+        border: 1px solid rgba($color: #190fa3, $alpha: 0.0);
+        transition: 0.3s
+      };
+
+      .title-input:hover {
+        border: 1px solid rgba($color: #190fa3, $alpha: 1.0);
+      }
+     
+      .content-input {
+        height: 100px;
+        padding: 20px;
+        width: 500px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        border: 1px solid rgba($color: #190fa3, $alpha: 0.0);
+        transition: 0.3s
+      };
+
+      .content-input:hover {
+        border: 1px solid rgba($color: #190fa3, $alpha: 1.0);
+      };
+
+      .select-prioridade {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+
+        label {
+          color: #000000;
+        }
+
+        select {
+          margin-top: 10px;
+          border-radius: 5px;
+        }
+
+      };
+
+      .date-input {
+        border-radius: 8px;
+        border: 1px solid black;
+        height: 25px;
+        margin: 10px;
+      };
+
+      .select-finalizado {
+        display: flex;
+        margin: 10px;
+
+        select {
+          border-radius: 5px;
+        }
+      }
+
+      .button-submit {
+        background-color: #190fa3;
+        color: white;
+        margin-top: 100px;
+        border: 1px solid rgba($color: #000000, $alpha: 0.0);
+        border-radius: 8px;
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+        transition: 0.3s
+      };
+
+      .button-submit:hover {
+        border: 1px solid #190fa3;
+        color: #190fa3;
+        background-color: white;
+      };
+    };
+
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+
+    .fechar {
+      background-color: #190fa3;
+      color: white;
+      margin-right: 150px;
+      margin-top: -28px;
+      width: 100px;
+      height: 30px;
+      border: 1px solid rgba($color: #000000, $alpha: 0.0);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s
+    };
+
+    .fechar:hover {
+      border: 1px solid #190fa3;
+      color: #190fa3;
+      background-color: white;
+    };
+
+    .deletar {
+      background-color: #190fa3;
+      color: white;
+      margin-top: -28px;
+      margin-left: 150px;
+      width: 100px;
+      height: 30px;
+      border: 1px solid rgba($color: #000000, $alpha: 0.0);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s
+    };
+
+    .deletar:hover {
+      border: 1px solid #190fa3;
+      color: #190fa3;
+      background-color: white;
+    };
+  }
+
+

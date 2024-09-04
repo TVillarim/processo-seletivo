@@ -1,0 +1,93 @@
+.header {
+    background-color: rgb(20, 20, 20);
+    color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+
+    h1 {
+        margin-left: 50px;
+        font-size: 50px;
+        font-weight: 400;
+        }
+
+    h3 {
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 55px;
+    }
+}
+
+
+.section-container {
+    background-color: rgb(190, 190, 190);
+    color: white;
+    position: absolute;
+    top: 25%;
+    right: 12%;
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+    align-items: center;
+
+    .section-login-container {
+
+        margin-top: 20%;
+
+
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px
+        };
+    
+        .input-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+    
+            input {
+                width: 300px;
+                padding: 10px;
+                margin: 20px;
+                border: none;
+                outline: none;
+                border-radius: 8px
+            };
+
+            span {
+                color: rgb(228, 80, 80)
+            }
+        };
+
+    };
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+
+        button {
+            width: 100px;
+            height: 30px;
+            margin: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba($color: #000000, $alpha: 0);
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            border: 1px solid rgb(7, 7, 7)
+        }
+    }
+
+};
+
